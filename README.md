@@ -20,10 +20,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-<img src="./screenshots/desktop-1440px.jpg" align="center"/>
-<img src="./screenshots/mobile-375px.jpg" align="center"/>
-<p>
-  <img src="./screenshots/mobile-375px.jpg" align="center"/>
+<img src="./screenshots/desktop-1440px.jpg"/>
+<p align="center">
+  <img src="./screenshots/mobile-375px.jpg"/>
 </p>
 
 ### Links
