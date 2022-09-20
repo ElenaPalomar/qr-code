@@ -1,0 +1,42 @@
+/* VARIABLES */
+:root {
+  --background: hsl(212, 45%, 89%);
+  --cardBackground: hsl(0, 0%, 100%);
+  --title: hsl(218, 44%, 22%);
+  --text: hsl(220, 15%, 55%);
+  --links: hsl(228, 45%, 44%);
+
+  --font: 'Outfit', sans-serif;
+}
+
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* GLOBAL */
+body {
+  background-color: var(--background);
+  max-height: 100vh;
+  font-family: var(--font);
+  font-size: 15px;
+}
+
+/* MAIN */
+
+/* FOOTER */
+
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: var(--links);
+}
