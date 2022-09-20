@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-->![](./screenshots/desktop-1440px.jpg)<-
-->![](./screenshots/mobile-375px.jpg)<-
+<center>![](./screenshots/desktop-1440px.jpg)</center>
+<center>![](./screenshots/mobile-375px.jpg)</center>
 
 ### Links
 
