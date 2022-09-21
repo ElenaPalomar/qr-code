@@ -7,6 +7,7 @@
   --links: hsl(228, 45%, 44%);
 
   --font: 'Outfit', sans-serif;
+  font-size: 62.5%;
 }
 
 /* RESET */
@@ -22,17 +23,20 @@ a {
 }
 
 /* GLOBAL */
+html {
+  font-size: 16px;
+}
 body {
   background-color: var(--background);
   max-height: 100vh;
   font-family: var(--font);
-  font-size: 15px;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 /* MAIN */
 .main {
-  height: calc(100vh - 20px);
+  height: calc(100vh - 2rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,28 +46,28 @@ body {
 /* section.card */
 .card {
   background-color: var(--cardBackground);
-  border-radius: 20px;
+  border-radius: 2rem;
   width: min-content;
 }
 
 /* img.card__img */
 .card__img {
-  border-radius: 10px;
-  width: 288px;
-  height: 288px;
-  margin: 17px;
+  border-radius: 1rem;
+  width: 28.8rem;
+  height: 28.8rem;
+  margin: 1.7rem;
 }
 
 /* h1.card__title */
 .card__title {
-  margin: 0 15px 15px;
+  margin: 0 1.5rem 1.5rem;
   font-weight: 700;
   color: var(--title);
 }
 
 /* p.card__text */
 .card__text {
-  margin: 0 30px 40px;
+  margin: 0 3rem 4rem;
   color: var(--text);
 }
 
@@ -71,8 +75,8 @@ body {
 /* FOOTER */
 
 .attribution { 
-  height: 20px;
-  font-size: 11px;
+  height: 2rem;
+  font-size: 1.1rem;
 }
 .attribution__links {
   color: var(--links);
